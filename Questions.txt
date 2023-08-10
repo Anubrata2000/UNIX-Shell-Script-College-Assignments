@@ -1,0 +1,125 @@
+1. Write a shell script that' will greet the user saying 'GOOD MORNING', 'GOOD  AFTERNOON', 'GOOD EVENING' or 'GOOD NIGHT' according to the system  time. 
+
+2. Write a shell script to rename all the files in the current directory that have upper case names  to lower case. 
+
+3. Write a shell script which count the number of lines and words supplied at standard  input. 
+
+4. Write a shell script that displays all the command line arguments passed with the name  of program in different lines ( 1 argument in each line ). 
+
+5. Write a shell script that accepts a username from the user and displays all the  information about the user from /etc/passwd file . 
+
+6. Write a shell program to store the names, size, permissions of all the regular files present in the  current directory in a file named backup. 
+
+7. Write a shell script to input numbers at command line and print a count of positive and negative  numbers entered. 
+
+8. Write a single command in unix to do the following : To save the output of the 'who' command in a  file as well as display it on screen. 
+
+9. Write command in unix to do the following :
+	
+	To take input from the file IN and to write its sorted output to the file OUT.
+ 
+10. Write a Shell Script to copy the content of a file to another file. 
+
+11. Write a shell script display username who have login and those users that have  logged out. 
+
+12. Write a bash script, lower.sh to "lowercase" a directory of files. If a lowercase  file of the same name alreadly exists in that directory, 
+    the program should  warn the use and NOT overwrite the existing file. 
+    egg. 
+
+	$ is dir/ 
+	One-File TWO-File Three-FILE one-file  
+	$ ./lower.sh dir/ 
+	Warning: Not overwriting one-file  
+	$ is dir 
+	One-File one-file three-file two-file
+
+13. Write a shell script that will compile & execute all C files in the current directory. 
+
+14. Write a shell scipt that will display the factorial of a number supplied as command line  argument.
+    The number will be passed into a function, which will calculate and return the  factorial to the calling statement. 
+
+15. Write a shell script to enter elements into an array & display the summation of all the elements.  
+    The user will enter the number of elements in the array and the individual elements from the  keyboard. 
+
+16. Write a shell script to check whether an integer is prime or not ? 
+
+17. Write a shell script to print only those words of the file FILE, whose beginning and last  character are same. 
+
+18. Write an awk script to find the frequency of words present in the text file MATTER  Print only those words whose frequency is 5 or more 
+
+19. Write shell script to print given number in reverse order, for example, if n mber is 123 then it must printed as 321. 
+
+20. Write a shell script to delete all files in root and its subdirectories having extension 'tmp', 
+    which  have not been created or referred to in the last 15 days. 
+
+21. Write a shell script to depict the orphan process. 
+
+22. Write down a shell script that will display the PID of init process. 
+
+23.Write a report using awk command/s where commission is 5% if the salary is less  than 500 and commission is 10% if the salary is greater than 5000. 
+   The format is : This is the employee informatiori 
+   Todays date is : 
+   emp no. name salary age commission 
+   The No. of employees is : 
+   The total salary is : Rs. 
+   The total commission is : Rs. 
+   Thanking you for seeing this report. 
+
+24. Write a shell script that computes the gross salary of an employee according to the following rules given below. The basic salary is input interactively 
+    through  the keyboard. 
+    If basic salary is < 1500 then HRA = 10% of'the basic and DA = 90% of the basic. 
+    If basic salary id > =1500 then HRA = Rs 500 and DA = 98% of the basic.
+
+25. Write a shell script to merge two one-dimensional arrays using functions. 
+
+26. Write a simple awk program that asks for a word and a file name and then tells you the  no. of occurrences of that word into that file.
+
+27. What should be the output of the following shell script ? 
+    a="*" 
+    b=a 
+    echo $b 
+
+28. What should be the output of the following shell script ? 
+    a = * 
+    echo $a 
+    echo la" 
+
+29. What should be the output of the following echo statement ? 
+    echo $$ 
+
+30. What should be the output of the following script ? 
+    IFS=+ 
+    set economists+are+seldom+right 
+    echo $3 $4 $# 
+
+31. What should be the output of the following script ? 
+    a=b 
+    b=c=d=c  
+    echo $$b  
+    echo $$$d 
+
+32. Write a shell script that accepts values from 1 to 6 OM displays  
+ (a) the list of files in the present Working directory if the choice is 1,  
+ (b) the current date if the choice is 2, 
+ (c) the process status if choice is 3, 
+ (d) all the current users of the system if the choice is 4,  
+ (e) displays the present working directory if the choice is 5,  
+ (f) exits if the choice is 6, and  
+ (g) the message "invalid option" and exits if the choice is anything else. 
+
+33. Write a shell script to check whether an user is valid user or not. 
+
+34. WAP in shell script to generate a Fibonacci Series. 
+
+35. WAP in shell script to check whether a Number is Palindrome or not. 
+
+36. WAP in shell script to convert a Decimal no. into its Binary Form. 
+
+37. WAP in shell script for making a file with a list of present logged in user in UNIX. 38. 
+    WAP in shell script which takes two filenames & sort the file in ascending order.
+    Then make a new  file (that must be user input) which holds all the contents of both files. 
+
+39. Write a Menu based program in Shell Script to find the record of an Employee(emp_no,  emp_name, emp_sal) 
+    according his emp_no,display only emp_no & emp_sal of all the employee  & append new records. 
+
+40. WAP in shell script which counts the no. of Blanks present in a Sentence.
